@@ -10,39 +10,39 @@ Feel free to fork it and share it!
 
 ### Fork and clone this repo
 
-    Use `git clone <path to the repo>`
+Use `:~$ git clone <path to the repo>`
 
 ### Customize the blog and change the settings to suit your needs
     
-    Edit the `_config.yml`.
+Edit the `_config.yml`.
     
-    ```yml
-    title: add a tittle for your blog.
-    description: a short description for your blog.
-    author: your name.
-    email: your email.
-    url: URL of your website.
-    owner: your name.
-    year: current year.
-    ```
+```yml
+title: add a tittle for your blog.
+description: a short description for your blog.
+author: your name.
+email: your email.
+url: URL of your website.
+owner: your name.
+year: current year.
+```
 ### Edit the `about.md` with info about you
 
 ### Modify the layouts if you want to modify the site style
 
 ## Local building
 
-    If you want to see your changes locally before pushing the blog to GitHub or wherever you are going to push it, you have to install all the packages and libraries and also ruby-devel according to your distribution. 
-    For more details and info go to [Jekyll website](https://jekyllrb.com/).
+If you want to see your changes locally before pushing the blog to GitHub or wherever you are going to push it, you have to install all the packages and libraries and also ruby-devel according to your distribution. 
+For more details and info go to [Jekyll website](https://jekyllrb.com/).
 
-    When you have all installed run:
+When you have all installed run:
     
-    ```bash
-    gem install jekyll
-    gem install jekyll-feed
-    gem install jekyll-paginate
-    jekyll serve --watch
-    ```
-    Go to `http://localhost:4000/`.
+```bash
+:~$ gem install jekyll
+:~$ gem install jekyll-feed
+:~$ gem install jekyll-paginate
+:~$ jekyll serve --watch
+```
+Go to `http://localhost:4000/`.
 
 *note: if you want to host your blog with GitHub Pages just create a new repo and push your changes. For more info see: [Jekyll and GitHub Pages](https://jekyllrb.com/docs/github-pages/)*
 
