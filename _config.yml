@@ -36,7 +36,7 @@ rss: rss
 markdown: kramdown
 theme: jekyll-theme-hacker
 paginate: 3
-paginate_path: "blog/page:num/"
+paginate_path: "/page:num/"
 
 # Front matter defaults
 defaults:
