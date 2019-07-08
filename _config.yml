@@ -65,6 +65,9 @@ exclude:
   - vendor/gems/
   - vendor/ruby/
 
+collections:
+  - slides
+
 # Custom variables
 owner : "Erus"
 year : "2018"
